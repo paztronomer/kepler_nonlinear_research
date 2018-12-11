@@ -13,10 +13,10 @@ Files derived from the [Paz-Chinchon et al 2015](http://iopscience.iop.org/artic
     - nflux_err: normalized flux error, to be around 1
     - time: time in MJD
     - time_corr: error in time
-* **boxc2dim_D.csv**: results from 2D boxcounting on the reduced version of the LCs, namely, using 1/2 of the data points. Columns are:
+* *boxc2dim_D.csv*: results from 2D boxcounting on the reduced version of the LCs, namely, using 1/2 of the data points. Columns are:
     - D_m_bias, D_b_bias, D_rval_bias, D_pval_bias, D_stderr_bias, D_m, D_b, D_rval, D_pval, D_stderr
     - D_m is the (mono) fractal dimension
-* **boxc2dim_lacunarity.csv**: results from 2D boxcounting on the reduced version of the LCs, namely, using 1/2 of the data points. The lacunarity was calculated using the traditional method from Plotnick et al 1996. Columns are:
+* *boxc2dim_lacunarity.csv*: results from 2D boxcounting on the reduced version of the LCs, namely, using 1/2 of the data points. The lacunarity was calculated using the traditional method from Plotnick et al 1996. Columns are:
     - Lac_m_bias, Lac_b_bias, Lac_rval_bias, Lac_pval_bias, Lac_stderr_bias, Lac_m, Lac_b, Lac_rval, Lac_pval, Lac_stderr
     - Note no single linear regression accounts for the lacunarity behavior
 
