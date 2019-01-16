@@ -8,7 +8,8 @@ Repository to joint project with IAA, containing mainly results obatined with co
 * *final_KOI_results_all_v03.csv*: results for the period calculations, with some data coming from MCMC too.
 * *final_KOI_results_and_Pinsonneault_v03.csv*: similar to the table of period calculations, but adding matches with Pinsonneault database of modeled mass, radius, and T_eff
 
-#### Files in  **100kplr_lc/** Each file is a CSV, with columns:
+#### Files in  **100kplr_lc/** 
+* Each file is a CSV, with columns:
     - Q: for the Kepler-quarter of the observation
     - nflux: normalized flux
     - nflux_err: normalized flux error, to be around 1
@@ -24,8 +25,10 @@ Repository to joint project with IAA, containing mainly results obatined with co
     - Note no single linear regression accounts for the lacunarity behavior
 
 #### Plots directory
-* gap histogram, shows the logarithmic frequancy of the gap distribution for the sample of 100 LCs
+* gap histogram, shows the logarithmic frequency of the gap distribution for the sample of 100 LCs
 
+--------------------------------------------------
+ 
 NOTES:
 
 * Light curves selected from [Paz-Chinchon et al 2015](http://iopscience.iop.org/article/10.1088/0004-637X/803/2/69/meta)
